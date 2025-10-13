@@ -1,0 +1,150 @@
+:root{
+    --pr-hijau: #048853;
+}
+
+body{
+    font-family: "Poppins";
+    background-color: #E5E5E5;
+    
+}
+
+.navbar{
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+.accent-banner{
+    z-index: 1;
+}
+
+/* navbar style */
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-link.active{
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-masuk{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--pr-hijau);
+}
+.btn-daftar{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+/* navbar end */
+
+/* Style Hero */
+#hero{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    height: 100vh;
+}
+.text-hero h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 70px;
+}
+.text-hero p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    width: 85%;
+}
+.btn-lg{
+    width: 237px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fff;
+    color: var(--pr-hijau);
+    border: none;
+}
+/* layanan style */
+    #our-service{
+        padding: 100px 0;
+
+    .our-service{
+        color: var(--pr-hijau);
+    }
+        
+    }
+    .container-img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%; 
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--pr-hijau);
+        
+
+    }
+    .card-layanan{
+        height: 280px;
+        width: 330px;
+        padding: 40px;
+        background-color: #fff;
+        border-radius: 5px;
+        margin :auto;
+        
+
+    }
+      
+
+    .card-layanan h4{
+        font-size: 24px;
+        font-weight: 500;
+        color: var(--pr-hijau);
+
+    }
+
+    .card-layanan p{
+        color: #000;
+    }
+
+/*ini hover*/
+    .card-layanan:hover{
+        height: 313px;
+        padding: 40px;
+        background:linear-gradient(100deg,var(--pr-hijau),black);
+        border-radius: 5px;
+    }
+
+    .card-layanan:hover h4{
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .card-layanan:hover p{
+        color: #fff;
+    }
+
+    .card-layanan:hover .container-img{
+        background: #fff
+        ;
+    }
+       
+/*end hover*/
+    
+/* end layanan */
